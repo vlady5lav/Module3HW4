@@ -4,8 +4,8 @@
     {
         public static void Main(string[] args)
         {
-            var starter = new Starter();
-            starter.Run();
+            var app = new App();
+            app.Start();
         }
     }
 }
