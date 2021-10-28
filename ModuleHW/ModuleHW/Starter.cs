@@ -25,7 +25,7 @@ namespace ModuleHW
 
             var notSerdiuk = _userList.FirstOrDefault(x => x.LastName != "Serdiuk");
 
-            var isNull = _userList?.Any() == true; // можно использовать внутри if
+            var isNull = _userList?.Any() == true; // possible to use in "if" consctructions
 
             var isNullable = _userList?.Any();
 
